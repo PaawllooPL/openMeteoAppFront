@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+
+    <div class="top-bar bg-light" id="top-bar">
+        <h1 class="top-bar-header" id="top-bar-header">Weather App</h1>
+    </div>
+    <div class="dark-mode-button-container">
+        <div class="row dark-mode-button-container">
+            <button class="btn btn-dark col-8 col-xl-12 shadow-none" id="dark-mode-button">
+                Dark mode on/off
+            </button>
+        </div>
+    </div>
+
+    <div class="center" id="message-box" style="display: none;">
+        <div class="message-container bg-warning">
+            <h5 id="message-text">test</h5>
+        </div>
+    </div>
+    <div class="check-weather-container">
+            <h3 id="check-weather-header">Check weather</h3>
+            <button style="display: none;" class="btn btn-primary" id="check-weather-button">Click Me !</button>
+    </div>
+
+    <div class="row">
+        <div class="table-responsive">
+            <table class="table" id="weather-table">
+                <thead id="weather-table-head">
+                    <tr>
+                        <td>Date</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody id="weather-table-body">
+                    <tr>
+                        <td style="width: 20%;">Max temperature (C)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Min temperature (C)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td>Generated energy (Kwh)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Weather</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

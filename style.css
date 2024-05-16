@@ -1,0 +1,50 @@
+body {
+    background-color: gray;
+    min-width: none;
+}
+.top-bar{
+    width: 100vw;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dark-mode-button-container {
+    display: flex;
+    justify-content: end;
+}
+#dark-mode-button {
+    display: block;
+    margin: 20px;
+}
+.background-dark-gray {
+    background: rgb(37, 37, 37);
+}
+.check-weather-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 80px 0;
+}
+#check-weather-button {
+    margin:20px;
+}
+#weather-table-body td {
+    text-align: center;
+}
+.icon {
+    width: 30px;
+}
+.message-container {
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 20px;
+    margin: 0 5vw;
+    text-align: center;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
